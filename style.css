@@ -1,0 +1,624 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Courgette&family=Dancing+Script:wght@700&family=Great+Vibes&family=Lemon&family=Salsa&family=Satisfy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Bungee+Spice&family=Courgette&family=Dancing+Script:wght@700&family=Great+Vibes&family=Lemon&family=Lilita+One&family=Montserrat:wght@900&family=Oleo+Script&family=Oswald:wght@500&family=Public+Sans&family=Rubik+Doodle+Shadow&family=Russo+One&family=Salsa&family=Satisfy&family=Signika+Negative&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+
+}
+
+#page-1 {
+    height: 100%;
+    width: 100%;
+
+
+
+}
+
+#left {
+    width: 30%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.501);
+    float: left;
+}
+
+#left .icon {
+    padding-top: 110%;
+    padding-left: 30px;
+
+
+}
+
+#left .icon h1 {
+    color: white;
+    margin-left: 15px;
+    font-size: 30px;
+    font-family: 'Oleo Script', system-ui;
+}
+
+#left .fa-brands {
+    color: white;
+    padding: 10px;
+    font-size: 20px;
+    margin-top: 20px;
+
+}
+
+#left .fa-brands:hover {
+    font-size: 10px;
+    color: rgb(254, 156, 8);
+}
+
+#right {
+    width: 100%;
+    height: 100%;
+    background-image: url('images/slide-img-01-1375x980.jpg');
+    background-position: center;
+    background-size: cover;
+
+
+}
+
+#right img {
+    height: 100%;
+    width: 70%;
+
+}
+
+#right .text {
+    color: white;
+    padding-top: 25%;
+    padding-left: 35%;
+
+
+}
+
+#right .text h1 {
+    font-size: 70px;
+    font-weight: 900;
+    color: rgba(254, 155, 8, 0.925);
+    margin: 20px;
+    font-family: 'Russo One', sans-serif;
+    margin-left: 5px;
+}
+
+#right .text h2 {
+    font-size: 3opx;
+    font-weight: bold;
+    font-family: 'Signika Negative', sans-serif;
+}
+
+#right .text h3 {
+    font-weight: bolder;
+    letter-spacing: 10px;
+    font-family: 'Public Sans', sans-serif;
+}
+
+.view {
+    border: 2px solid rgba(254, 155, 8, 0.925);
+    border-radius: 60px;
+    letter-spacing: 6px;
+    background-color: transparent;
+    color: white;
+    padding: 10px;
+    white-space: 10px;
+    margin-left: 70px;
+    margin-top: 50px;
+}
+
+.view:hover {
+    background-color: rgba(254, 155, 8, 0.925);
+    font-size: 10px;
+}
+
+#navbar {
+    height: 10%;
+    width: 100%;
+    background-color: rgba(24, 22, 22, 0.837);
+    position: fixed;
+    color: azure;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+}
+
+#navbar ul {
+    list-style: none;
+    display: flex;
+    margin-top: 10px;
+}
+
+#navabr ul li {
+
+    padding: 10px;
+}
+
+#navbar ul li a {
+    font-size: 15px;
+    text-decoration: none;
+    margin: 16px;
+    color: white;
+
+
+}
+
+#navbar ul li a:hover {
+    font-size: 10px;
+    color: rgb(254, 156, 8);
+}
+
+
+#navbar .logo {
+    padding-left: 20px;
+    font-size: 40px;
+    font-family: 'Lemon', serif;
+
+}
+
+#navbar .logo span {
+    color: rgba(254, 155, 8, 0.925);
+    font-style: inherit;
+}
+
+#navbar .call {
+    padding-right: 20px;
+    padding-top: 10px;
+    font-size: 18px;
+
+
+}
+
+#navbar .fa-solid {
+    color: rgb(254, 156, 8);
+    margin: 10px;
+}
+
+#navbar .fa-solid:hover {
+    color: white;
+}
+
+.anime {
+    opacity: 0;
+    transform: translateX(20px);
+    animation: moveup 3s infinite ease-out;
+}
+
+@keyframes moveup {
+    100% {
+        opacity: 1;
+        transform: translateX(10px);
+
+    }
+
+}
+
+#page-2 {
+    height: 100%;
+    width: 100%;
+    background-color: white;
+}
+
+#left-1 {
+    height: 100%;
+    width: 60%;
+    background-color: rgba(0, 255, 255, 0.085);
+    float: left;
+}
+
+#left-1 .contant {
+    padding-top: 10%;
+
+
+}
+
+#left-1 .contant h1 {
+    margin: 20px;
+    font-size: 50px;
+    font-weight: 800;
+    padding-left: 8%;
+    padding-top: 20px;
+    font-family: 'Oswald', sans-serif;
+}
+
+#left-1 .contant h2 {
+    color: orange;
+    font-size: 30px;
+    padding-left: 10%;
+    padding-top: 10px;
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: 20px;
+
+}
+
+#left-1 .contant p {
+    padding-left: 10%;
+    font-size: 20px;
+    padding-top: 30px;
+    
+
+}
+
+#right-1 {
+    height: 100%;
+    width: 40%;
+    float: left;
+
+}
+
+#right-1 h1 {
+    font-size: 350px;
+    font-family: 'Montserrat', sans-serif;
+    background-image: url('images/slide-img-01-1375x980.jpg');
+    background-position: center;
+    background-size: cover;
+    background-clip: text;
+    color: transparent;
+    padding-left: 60px;
+    padding-top: 30px;
+    animation: bounce 2s  infinite;
+    
+}
+@keyframes bounce {
+    0%{transform: translateY(0);}
+    40%{transform: translateY(-20px);}
+    60%{transform: translateY(-10px);}
+    
+}
+#right-1 h2{
+    padding-left: 20%;
+    color: orange;
+    font-size: 40px;
+    letter-spacing: 10px;
+    font-weight: 700;
+    font-family: sans-serif;
+}
+#right-1 h3{
+    padding-left: 20%;
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: 200;
+}
+.anime1 {
+    opacity: 0;
+    transform: translateX(20px);
+    animation: moveup 4s infinite ease-out;
+}
+
+@keyframes moveup {
+    100% {
+        opacity: 1;
+        transform: translateX(10px);
+
+    }
+
+}
+#page-3{
+    height: 100%;
+    width: 100%;
+    background-color: rgba(248, 241, 241, 0.375);
+    
+}
+#page-3 .services{
+    padding-left: 44%;
+    padding-top: 10%;
+}
+#box{
+    height: 50%;
+    width: 100%;
+    margin-top: 60px;
+    display: flex;
+    
+
+}
+.box-1{
+    height: 100%;
+    width: 23%;
+    margin: 20px;
+    border: 1px solid black;
+}
+.box-2{
+    height: 100%;
+    width: 23%;
+    margin: 20px;
+    border: 1px solid black;
+}
+.box-3{
+    height: 100%;
+    width: 23%;
+    margin: 20px;
+    border: 1px solid black;
+}
+.box-4{
+    height: 100%;
+    width: 23%;
+    margin: 20px;
+    border: 1px solid black;
+}
+.icon{
+    font-size: 50px;
+    padding: 40px;
+}
+.tittle{
+    font-size: 20px;
+    font-weight: 200;
+    margin-top: 20px;
+}
+.line{
+    width: 100%;
+    height: 1px;
+    background-color: black;
+    margin-top: 20px;
+}
+.para{
+    font-size: 18px;
+    font-weight: 100;
+    font-family: sans-serif;
+    margin-top: 20px;
+}
+.box-1:hover{
+    box-shadow: 2px 2px 8px 3px  rgb(1, 206, 252);
+    animation: forwards;
+}
+.box-2:hover{
+    box-shadow: 2px 2px 8px 2px  rgb(1, 206, 252);
+    animation: forwards;
+}
+.box-3:hover{
+    box-shadow: 2px 3px 8px 3px rgb(1, 206, 252);
+    animation: forwards;
+}
+.box-4:hover{
+    box-shadow: 2px 2px 8px 3px  rgb(1, 206, 252);
+    animation: forwards;
+}
+#page-4{
+    height: 120%;
+    width: 100%;
+    background-color: white;
+    padding-left: 60px;
+}
+#page-4 h1{
+    font-size: 50px;
+    font-weight: 700;
+    font-family: sans-serif;
+    padding-top: 6%;
+    margin: 30px;
+    padding-left: 90px;
+    
+}
+.leftside{
+    padding-left: 10%;
+    float: left;
+}
+
+#badabox{
+    height: 70%;
+    width: 90%;
+    background-color: white;
+    
+}
+#rightside{
+    height: 100%;
+    width: 40%;
+    background-color: green;
+    float: left;
+}
+#upside{
+    height: 50%;
+    width: 100%;
+    background-color: white;
+    padding: 50px;
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: 100;
+    text-decoration-style: wavy;
+} 
+#dounside{
+    height: 50%;
+    width: 100%;
+    background-color: rgba(219, 137, 14, 0.904);
+    
+}
+
+ 
+#dounside .yellow{
+    font-size: 30px;
+    padding: 50px 50px;
+    padding-top: 80px;
+    font-family: 'Signika Negative', sans-serif;
+}
+#page-5{
+    height: 100%;
+    width: 100%;
+    background-color: whitesmoke;
+    margin: 30px;
+    
+}
+#dabbabox{
+    height: 100%;
+    width: 70%;
+    background-color: whitesmoke;
+    margin: 15%;
+    padding-top: 30px;
+    
+    
+}
+#upbox{
+    height: 40%;
+    width: 110%;
+    background-color: whitesmoke;
+}
+#dounbox{
+    height: 40%;
+    width: 110%;
+    background-color: red;
+}
+#leftbox{
+    height: 100%;
+    width: 50%;
+    background-color: whitesmoke;
+    float: right;
+   
+}
+#rightbox{
+    height: 100%;
+    width: 50%;
+    background-color: whitesmoke;
+
+}
+
+#dounleftbox{
+    height: 100%;
+    width: 50%;
+    background-color: whitesmoke;
+    float: right;
+    
+    
+}
+#dounrightbox{
+    height: 100%;
+    width: 50%;
+    background-color: whitesmoke;
+    
+}
+.icon-2{
+    font-size: 40px;
+    padding-top: 40px;
+    padding-left: 30px;
+}
+.sign{
+    padding-left: 30px;
+    padding-top: 20px;
+}
+.para-1{
+    margin: 30px;
+    font-family: sans-serif;
+}
+#page-6{
+    height: 100%;
+    width: 100%;
+    background-color: white;
+}
+.touch{
+    font-size: 60px;
+    font-family: sans-serif;
+    padding-left: 38%;
+    padding-top: 30px;
+}
+.paraji{
+    padding-left: 26%;
+    font-size: 20px;
+    line-break: strict;
+    line-height: 29px;   
+}
+.paraji span{
+    padding-left: 5px;
+    margin: 10px;
+}
+.ppp{
+    padding-left: 39%;
+    font-size: 20px;
+}
+.registration-form{
+    padding-left: 33%;
+    padding-top: 40px;
+    margin: 30px;
+
+}
+.registration-form{
+    font-size: 20px;
+    margin: 15px;
+}
+.registration-form input{
+    font-size: 15px;
+    padding: 15px 10px;
+    width: 60%;
+    border: 2px solid rgba(255, 68, 0, 0.655);
+    border-radius: 5px;
+    outline: none;
+    
+}
+
+.registration-form button{
+    font-size: 18px;
+    font-weight: bold;
+    margin: 20px 0;
+    padding: 10px 15px;
+    width: 60%;
+    border: 0;
+    border-radius: 5px;
+    background-color: rgba(255, 68, 0, 0.655);
+
+}
+.registration-form button:hover{
+    color: lightsalmon;
+    background-color:gray;
+}
+#page-7{
+    height: 40%;
+    width: 100%;
+    background-color: rgba(255, 166, 0, 0.796);
+}
+.commty{
+    font-size: 50px;
+    font-weight: 900;
+    padding-top: 80px;
+    padding-left: 90px;
+    font-family: sans-serif;
+    float: left;
+}
+.commty-1{
+    font-size: 20px;
+    letter-spacing: 10px;
+    padding-left:7%;
+    float: left;
+    color: whitesmoke;
+    font-family: sans-serif;
+}
+.started{
+   margin-left: 15%;
+    margin-top: 8%;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 15px;
+    font-weight: 900;
+    border-radius: 50px;
+    background-color: black;
+    color: white;
+}
+.started:hover{
+    background-color: whitesmoke;
+    color: orange;
+}
+#page-8{
+    height: 160%;
+    width: 100%;
+    background-color: black;
+}
+.world{
+    color: whitesmoke;
+    padding-left: 35%;
+    font-size: 55px;
+    padding-top: 80px;
+    font-family: sans-serif;
+}
+#page-8 img{
+    width: 100%;
+    padding-top: 40px;
+}
+.aryan{
+    color: whitesmoke;
+    padding-left: 87%;
+    padding-top: 20px;
+    font-size: 20px;
+    font-family: 'Anton', sans-serif;
+}
